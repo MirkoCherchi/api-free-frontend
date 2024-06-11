@@ -34,25 +34,27 @@ export default {
 </script>
 
 <template>
-    <div class="container my-4">
-        <h2 class="text-center py-2">Posts</h2>
-        <div class="row">
-            <div class="col-md-4 mt-4" v-for="post in posts">
-                <div class="card border-0 shadow-lg">
-                    <img :src="post.img" class="card-img-top rounded-top" :alt="post.title">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">{{ post.title }}</h5>
-                        <p class="card-text text-center">{{ post.content }}</p>
-                        <div class="text-center">
-                            <span class="badge bg-category">{{ post.category.name }}</span>
-                            <div class="mt-2">
-                                <span v-for="tag in post.tags" :key="tag.id" class="badge bg-tag me-1">#{{
-                tag.name }}</span>
+    <div class="content">
+        <div class="container my-4">
+            <h2 class="text-center py-2">Posts</h2>
+            <div class="row">
+                <div class="col-md-4 mt-4" v-for="post in posts">
+                    <div class="card border-0 shadow-lg">
+                        <img :src="post.img" class="card-img-top rounded-top" :alt="post.title">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">{{ post.title }}</h5>
+                            <p class="card-text text-center">{{ post.content }}</p>
+                            <div class="text-center">
+                                <span class="badge bg-category">{{ post.category.name }}</span>
+                                <div class="mt-2">
+                                    <span v-for="tag in post.tags" :key="tag.id" class="badge bg-tag me-1">#{{
+                    tag.name }}</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-footer bg-transparent border-0">
-                        <small class="text-data">{{ formatDateTime(post.createAt) }}</small>
+                        <div class="card-footer bg-transparent border-0">
+                            <small class="text-data">{{ formatDateTime(post.createAt) }}</small>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,6 +65,10 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../scss/partials/variables' as *;
+
+.content {
+    margin-top: 100px;
+}
 
 .container {
     max-width: 1200px;

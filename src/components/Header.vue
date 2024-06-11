@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid header-color">
+    <div class="container-fluid header-color fixed-header">
         <div class=" d-flex justify-content-between align-items-center p-4 px-3">
             <div>#MirkoCherchi</div>
             <div>
@@ -44,5 +44,12 @@ export default {
         all: unset;
         cursor: pointer;
     }
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 </style>
