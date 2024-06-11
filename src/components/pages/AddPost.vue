@@ -66,6 +66,7 @@ export default {
                     <label for="img" class="form-label">Immagine</label>
                     <input type="file" class="form-control" id="img" @change="onFileChange" accept="image/*" required>
                 </div>
+
                 <div class="mb-3">
                     <label for="category" class="form-label">Categoria</label>
                     <select class="form-control" id="category" v-model="newPostData.categoryId" required>
