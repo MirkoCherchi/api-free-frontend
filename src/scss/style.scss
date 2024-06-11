@@ -1,0 +1,8 @@
+@use '../scss/partials/variables' as *;
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+[v-cloak] {
+    display: none;
+}
