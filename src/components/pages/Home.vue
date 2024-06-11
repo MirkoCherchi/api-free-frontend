@@ -19,9 +19,9 @@ export default {
 </script>
 
 <template>
-    <h2>Sono la Home</h2>
+    <h1 class=" text-center pt-5">Benvenuti nel mio Blog!</h1>
 </template>
 
 <style lang="scss" scoped>
-@use '../scss/partials/variables' as *;
+@use '../../scss/partials/variables' as *;
 </style>

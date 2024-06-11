@@ -4,7 +4,7 @@ Oggi abbiamo un esercizio un po' diverso in serbo per voi! :occhiolino: Dovete s
 
 La tecnologia da utilizzare? La scelta è vostra! Potete optare per Vue.js o HTML e JavaScript plain. Anche per quanto riguarda lo stile, usate ciò che preferite: CSS, SCSS, Bootstrap, Tailwind, ecc...
 
-Il nostro unico suggerimento è: sperimentate, sperimentate e sperimentate! :sorriso_con_goccia_sudore:
+Il nostro unico suggerimento è: sperimentate, sperimentate e sperimentate! 
 
 Alla fine di questa giornata, speriamo di vedere almeno:
 
