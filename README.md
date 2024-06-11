@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+Ciao Ragazzi, esercizio di oggi: api-free-frontend
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Oggi abbiamo un esercizio un po' diverso in serbo per voi! :occhiolino: Dovete sviluppare un'applicazione frontend per consumare le API del blog che abbiamo creato nei giorni scorsi.
 
-## Recommended IDE Setup
+La tecnologia da utilizzare? La scelta è vostra! Potete optare per Vue.js o HTML e JavaScript plain. Anche per quanto riguarda lo stile, usate ciò che preferite: CSS, SCSS, Bootstrap, Tailwind, ecc...
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Il nostro unico suggerimento è: sperimentate, sperimentate e sperimentate! :sorriso_con_goccia_sudore:
+
+Alla fine di questa giornata, speriamo di vedere almeno:
+
+Una pagina home con l'elenco di tutti i post
+
+Una pagina per creare un nuovo post
+
+Ricordatevi di disabilitare il middleware di autenticazione
+
+Se avete dubbi, siamo qui per aiutarvi.
+
+Buon lavoro!
