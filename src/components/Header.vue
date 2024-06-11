@@ -18,7 +18,7 @@ export default {
 <template>
     <div class="container-fluid header-color">
         <div class=" d-flex justify-content-between align-items-center p-4 px-3">
-            <div>Sinistra</div>
+            <div>#MirkoCherchi</div>
             <div>
                 <ul class="d-flex gap-4 list-unstyled p-0 m-0">
                     <li><router-link class="link-nav" :to="{ name: 'allPosts' }">Posts</router-link></li>
